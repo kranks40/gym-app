@@ -1,10 +1,11 @@
-import { Route, Routes } from "react";
+import React from "react";
 import { Box } from "@mui/material";
 import "./App.css";
 import Navbar from "./component/Navbar";
 import Home from "./component/pages/Home";
 import ExerciseDetail from "./component/pages/ExerciseDetail";
 import Footer from "./component/Footer";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
